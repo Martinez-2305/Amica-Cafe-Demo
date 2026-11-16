@@ -85,12 +85,19 @@ test('built site: all routes exist, are noindex, and internal links resolve', ()
     assert.doesNotMatch(html, /href="(#|tel:|mailto:)?"|href="[^"]*\[/, `${p} has no placeholder links`);
     assert.doesNotMatch(html, /application\/ld\+json/, `${p} has no structured data`);
     assert.doesNotMatch(html, /Booking confirmed|Message sent/i);
-    for (const [, url] of html.matchAll(/(?:href|src)="(\/[^"#]*)(?:#[^"]*)?"/g)) {
+    // When the site was built for a sub-folder (BASE_PATH), every internal URL must carry that prefix.
+    const base = (process.env.BASE_PATH || '').replace(/\/+$/, '');
+    const local = (url) => {
+      assert.ok(url.startsWith(base + '/'), `${p} → ${url} is missing the base path "${base}"`);
+      return url.slice(base.length);
+    };
+    for (const [, raw] of html.matchAll(/(?:href|src)="(\/[^"#]*)(?:#[^"]*)?"/g)) {
+      const url = local(raw);
       const target = path.join(dist, url.endsWith('/') ? url + 'index.html' : url);
-      assert.ok(fs.existsSync(target), `${p} → ${url} exists`);
+      assert.ok(fs.existsSync(target), `${p} → ${raw} exists`);
     }
     for (const [, set] of html.matchAll(/srcset="([^"]+)"/g))
-      for (const part of set.split(', ')) assert.ok(fs.existsSync(path.join(dist, part.split(' ')[0])), `${p} srcset ${part}`);
+      for (const part of set.split(', ')) assert.ok(fs.existsSync(path.join(dist, local(part.split(' ')[0]))), `${p} srcset ${part}`);
   }
 });
 

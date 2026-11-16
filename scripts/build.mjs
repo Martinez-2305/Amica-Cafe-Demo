@@ -812,10 +812,17 @@ const notFound = layout({
 
 /* ---------- Write output ---------- */
 fs.rmSync(dist, { recursive: true, force: true });
+// Base path: '' when the site sits at the root of a domain, or e.g. '/Amica-Cafe-Demo' when it
+// is served from a sub-folder (GitHub Pages project sites). Set with --base= or BASE_PATH.
+const base = (arg('base') ?? process.env.BASE_PATH ?? '').replace(/\/+$/, '');
+if (base && !base.startsWith('/')) { console.error('Base path must start with "/"'); process.exit(1); }
+const withBase = (html) => !base ? html : html
+  .replace(/((?:href|src|poster)=")\/(?!\/)/g, `$1${base}/`)
+  .replace(/srcset="([^"]+)"/g, (m, list) => `srcset="${list.split(', ').map((p) => (p.startsWith('/') ? base + p : p)).join(', ')}"`);
 const write = (rel, html) => {
   const file = path.join(dist, rel);
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, html);
+  fs.writeFileSync(file, rel.endsWith('.html') ? withBase(html) : html);
 };
 write('index.html', home);
 write('menu/index.html', menuPage);
@@ -830,6 +837,10 @@ const copyDir = (from, to, filter = () => true) => {
   for (const f of fs.readdirSync(from)) if (filter(f)) fs.copyFileSync(path.join(from, f), path.join(to, f));
 };
 copyDir(path.join(root, 'src/styles'), path.join(dist, 'css'));
+if (base) for (const f of fs.readdirSync(path.join(dist, 'css'))) {
+  const file = path.join(dist, 'css', f);
+  fs.writeFileSync(file, fs.readFileSync(file, 'utf8').replace(/url\((["']?)\/(?!\/)/g, `url($1${base}/`));
+}
 copyDir(path.join(root, 'src/js'), path.join(dist, 'js'));
 copyDir(path.join(root, 'src/fonts'), path.join(dist, 'fonts'));
 // Only image derivatives that pages actually reference are published (never the raw /images folder).
