@@ -1,0 +1,13 @@
+{
+  "url": "https://www.example.com",
+  "urlConfirmed": false,
+  "notes": "Set \"url\" to the live address (no trailing slash, e.g. https://www.amicacafe.co.uk) and \"urlConfirmed\" to true before a live build. It is used for sitemap.xml, the Sitemap line in robots.txt and canonical links. A live build fails while this is unconfirmed.",
+  "sitemap": [
+    { "path": "/", "priority": "1.0", "changefreq": "weekly" },
+    { "path": "/menu/", "priority": "0.9", "changefreq": "weekly" },
+    { "path": "/private-hire/", "priority": "0.8", "changefreq": "monthly" },
+    { "path": "/visit/", "priority": "0.8", "changefreq": "monthly" },
+    { "path": "/privacy/", "priority": "0.2", "changefreq": "yearly" },
+    { "path": "/cookies/", "priority": "0.2", "changefreq": "yearly" }
+  ]
+}

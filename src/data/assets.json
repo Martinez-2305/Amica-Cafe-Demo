@@ -1,0 +1,210 @@
+{
+  "logo": {
+    "original": "images/amica-logo.jpeg",
+    "alt": "Amica Café",
+    "notes": "Supplied as light artwork on a black 1024×1024 square. Transparent dark and light variants extracted by scripts/optimise-images.mjs. Request vector (SVG/AI/EPS) master from client."
+  },
+  "images": [
+    {
+      "id": "avocado-toast-tea",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.26 (3).jpeg",
+      "width": 1080,
+      "height": 1440,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Homepage hero",
+      "alt": "Avocado on toast topped with bacon, poached eggs and fresh coriander, with a pot of tea behind",
+      "crop": "Portrait. Hero frame uses object-position centre 65% so the plate stays in view; teapot visible at larger sizes.",
+      "menuLink": "breakfast"
+    },
+    {
+      "id": "crepe-berries",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.26 (1).jpeg",
+      "width": 1080,
+      "height": 810,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Food section – crepes",
+      "alt": "Folded crepe with strawberries, blueberries and whipped cream, drizzled with berry sauce",
+      "crop": "Landscape, centred plate.",
+      "menuLink": "crepes"
+    },
+    {
+      "id": "crepe-savoury",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.26 (2).jpeg",
+      "width": 1080,
+      "height": 810,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Menu page – savoury crepes",
+      "alt": "Golden folded savoury crepe with a fresh salad garnish, avocado and tomatoes",
+      "crop": "Landscape, centred plate.",
+      "menuLink": "crepes"
+    },
+    {
+      "id": "crepe-cookies-white-chocolate",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.26.jpeg",
+      "width": 1080,
+      "height": 810,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Menu page – sweet crepes",
+      "alt": "Crepe drizzled with white chocolate, served with chocolate sandwich cookies",
+      "crop": "Landscape, centred plate.",
+      "menuLink": "crepes"
+    },
+    {
+      "id": "smoothie-berry",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27 (1).jpeg",
+      "width": 1080,
+      "height": 1440,
+      "widths": [
+        480,
+        800
+      ],
+      "role": "Unused – drink not on supplied menu",
+      "alt": "Glass of red berry smoothie surrounded by strawberries and blueberries",
+      "crop": "Portrait.",
+      "menuLink": null
+    },
+    {
+      "id": "milkshake-chocolate",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27 (2).jpeg",
+      "width": 1080,
+      "height": 1440,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Food section – milkshakes",
+      "alt": "Chocolate milkshake topped with whipped cream and chocolate drizzle",
+      "crop": "Portrait, glass centred.",
+      "menuLink": "milkshakes"
+    },
+    {
+      "id": "smoothie-green",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27 (3).jpeg",
+      "width": 1080,
+      "height": 1440,
+      "widths": [
+        480,
+        800
+      ],
+      "role": "Unused – drink not on supplied menu",
+      "alt": "Glass of green smoothie with kiwi, mango and banana",
+      "crop": "Portrait.",
+      "menuLink": null
+    },
+    {
+      "id": "latte",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27 (4).jpeg",
+      "width": 1080,
+      "height": 1440,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Owner/atmosphere section accent (not linked to a menu item – hot drinks list not supplied)",
+      "alt": "Latte with leaf latte art beside a coffee grinder and a sack of coffee beans",
+      "crop": "Portrait.",
+      "menuLink": null
+    },
+    {
+      "id": "poached-eggs",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27 (5).jpeg",
+      "width": 1080,
+      "height": 810,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Food section – breakfast",
+      "alt": "Close-up of poached eggs on avocado toast with bacon and coriander",
+      "crop": "Landscape close-up.",
+      "menuLink": "breakfast"
+    },
+    {
+      "id": "toasted-sandwich",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27 (6).jpeg",
+      "width": 1080,
+      "height": 720,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Food section – lunch",
+      "alt": "Toasted layered sandwich with chicken, salad and tomato, cut in half, with a coffee cup behind",
+      "crop": "Landscape 3:2.",
+      "menuLink": "lunch"
+    },
+    {
+      "id": "bagel-salmon",
+      "original": "images/WhatsApp Image 2026-10-30 at 20.08.27.jpeg",
+      "width": 1080,
+      "height": 810,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "role": "Food section – bagels",
+      "alt": "Bagel with egg, smoked salmon and cucumber, with a glass of orange juice",
+      "crop": "Landscape.",
+      "menuLink": "bagels"
+    },
+    {
+      "id": "party-setup",
+      "original": "images/party-pic.webp",
+      "width": 1360,
+      "height": 1020,
+      "widths": [
+        480,
+        800,
+        1200
+      ],
+      "role": "Home – private hire section",
+      "alt": "The café set up for an 18th birthday party, with long tables laid for guests and black and gold balloons",
+      "crop": "Landscape 4:3, shown uncropped.",
+      "menuLink": null
+    },
+    {
+      "id": "celebration-table",
+      "original": "images/party-pic2.webp",
+      "width": 1360,
+      "height": 628,
+      "widths": [
+        480,
+        800,
+        1360
+      ],
+      "role": "Private hire page hero",
+      "alt": "The café laid out for a celebration: one long table set for guests with yellow and white flowers, a dessert table and yellow balloons",
+      "crop": "Wide landscape. Used as a full-width background, focal point centre.",
+      "menuLink": null
+    }
+  ],
+  "hero": {
+    "type": "image",
+    "image": "poached-eggs",
+    "position": "70% 45%",
+    "video": null,
+    "videoPoster": null,
+    "notes": "Full-width hero background. To use a different photo: add it to images/, add an entry under \"images\" (widths up to the original width, ideally 1920px or more), run npm run images, and set \"image\" to its id. To use a video: put an .mp4 (muted, ideally under 6 MB, 10-20 seconds) in src/media/, set \"type\" to \"video\", \"video\" to the file name and \"videoPoster\" to an image id shown while it loads. The current photo is a 1080px stand-in and will look soft on large screens."
+  }
+}

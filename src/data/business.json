@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "name": {
+      "value": "Amica Café",
+      "status": "confirmed",
+      "placeholder": "[Café name]",
+      "source": "images/amica-logo.jpeg and menu PDF header",
+      "required": true
+    },
+    "established": {
+      "value": "2025",
+      "status": "confirmed",
+      "placeholder": "[Year established]",
+      "source": "Logo artwork reads 'EST. 2025'",
+      "required": false
+    },
+    "tagline": {
+      "value": "Coffee, breakfast, lunch, desserts",
+      "status": "confirmed",
+      "placeholder": "[Short description of the café in the owner's words]",
+      "source": "Google Business Profile \"From Amica Cafè\" description, retrieved 16 Nov 2026",
+      "required": false,
+      "question": "How would you describe the café in one sentence?"
+    },
+    "ownerName": {
+      "value": "Anna and Anita",
+      "status": "confirmed",
+      "placeholder": "[Owner's name]",
+      "source": "Google reviews and local press; confirmed as correct by the site owner, 16 Nov 2026",
+      "required": false,
+      "question": "What is the owner's name as it should appear on the site?"
+    },
+    "ownerBio": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Owners’ introduction to be added]",
+      "source": null,
+      "required": false,
+      "question": "A short introduction from Anna and Anita (3–5 sentences)."
+    },
+    "ownerPhoto": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "Owners’ photograph to be added",
+      "source": null,
+      "required": false,
+      "question": "Please supply a photograph of Anna and Anita that you are happy to publish."
+    }
+  },
+  "location": {
+    "address": {
+      "value": "33 Latchet Lane, Upton, Northampton NN5 4GG",
+      "status": "confirmed",
+      "placeholder": "[Street address, town and postcode]",
+      "source": "Google Business Profile, retrieved 16 Nov 2026 (listed as \"33 Latchet Ln\")",
+      "required": true,
+      "question": "What is the full café address including postcode?"
+    },
+    "area": {
+      "value": "Upton, Northampton",
+      "status": "confirmed",
+      "placeholder": "[Town or neighbourhood]",
+      "source": "Google Business Profile, retrieved 16 Nov 2026",
+      "required": false,
+      "question": "Which town or neighbourhood should the site mention?"
+    },
+    "directionsUrl": {
+      "value": "https://www.google.com/maps/dir/?api=1&destination=33+Latchet+Lane%2C+Upton%2C+Northampton+NN5+4GG",
+      "status": "confirmed",
+      "placeholder": "Directions link will appear once the address is confirmed.",
+      "source": "Google Business Profile, retrieved 16 Nov 2026",
+      "required": false,
+      "question": "Is there a Google Maps listing we should link to?"
+    }
+  },
+  "contact": {
+    "phone": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Telephone number]",
+      "source": null,
+      "required": false,
+      "question": "Which telephone number should be published, if any?"
+    },
+    "email": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Email address]",
+      "source": null,
+      "required": false,
+      "question": "Which email address should be published, if any?"
+    },
+    "instagram": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Instagram profile]",
+      "source": null,
+      "required": false,
+      "question": "Instagram profile link, if any?"
+    },
+    "facebook": {
+      "value": "https://www.facebook.com/share/15UTB86Uh5/",
+      "status": "confirmed",
+      "placeholder": "[Facebook page]",
+      "source": "Website link on the Google Business Profile, retrieved 16 Nov 2026",
+      "required": false,
+      "question": "Facebook page link, if any?"
+    }
+  },
+  "hours": {
+    "opening": [
+      {
+        "day": "Monday",
+        "value": "Closed",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      },
+      {
+        "day": "Tuesday",
+        "value": "Closed",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      },
+      {
+        "day": "Wednesday",
+        "value": "9am – 3pm",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      },
+      {
+        "day": "Thursday",
+        "value": "9am – 3pm",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      },
+      {
+        "day": "Friday",
+        "value": "9am – 3pm",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      },
+      {
+        "day": "Saturday",
+        "value": "10am – 4pm",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      },
+      {
+        "day": "Sunday",
+        "value": "10am – 4pm",
+        "status": "confirmed",
+        "placeholder": "[Hours to be confirmed]",
+        "source": "Google Business Profile, retrieved 16 Nov 2026",
+        "required": true
+      }
+    ],
+    "kitchen": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Kitchen and food-service hours to be confirmed]",
+      "source": null,
+      "required": false,
+      "question": "Does the kitchen close earlier than the café? If so, when?"
+    },
+    "bankHolidays": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Bank holiday hours to be confirmed]",
+      "source": null,
+      "required": false,
+      "question": "What are the bank-holiday and seasonal opening arrangements?"
+    }
+  },
+  "policies": {
+    "walkIns": {
+      "value": "Walk-ins welcome. No table booking needed.",
+      "status": "confirmed",
+      "placeholder": "[Walk-in policy]",
+      "source": "Client brief (architecture plan §1)",
+      "required": true
+    }
+  },
+  "practical": {
+    "parking": {
+      "value": "Free parking nearby.",
+      "status": "confirmed",
+      "placeholder": "[Parking information]",
+      "source": "Google reviews and local press; confirmed as correct by the site owner, 16 Nov 2026",
+      "required": false,
+      "question": "Where can customers park?"
+    },
+    "publicTransport": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Nearest bus stops or stations]",
+      "source": null,
+      "required": false,
+      "question": "Which bus stops or stations are nearest?"
+    }
+  },
+  "facilities": [
+    {
+      "key": "wheelchairAccess",
+      "label": "Wheelchair access",
+      "available": true,
+      "detail": null,
+      "source": "Google reviews and local press; confirmed as correct by the site owner, 16 Nov 2026"
+    },
+    {
+      "key": "stepFreeEntrance",
+      "label": "Step-free entrance",
+      "available": null,
+      "detail": null,
+      "source": null
+    },
+    {
+      "key": "accessibleToilet",
+      "label": "Accessible toilet",
+      "available": null,
+      "detail": null,
+      "source": null
+    },
+    {
+      "key": "customerToilets",
+      "label": "Customer toilets",
+      "available": null,
+      "detail": null,
+      "source": null
+    },
+    {
+      "key": "highchairs",
+      "label": "Highchairs",
+      "available": true,
+      "detail": null,
+      "source": "Google reviews and local press; confirmed as correct by the site owner, 16 Nov 2026"
+    },
+    {
+      "key": "babyChanging",
+      "label": "Baby changing",
+      "available": null,
+      "detail": null,
+      "source": null
+    },
+    {
+      "key": "outdoorSeating",
+      "label": "Outdoor seating",
+      "available": null,
+      "detail": null,
+      "source": null
+    },
+    {
+      "key": "dogsWelcome",
+      "label": "Dogs welcome",
+      "available": null,
+      "detail": null,
+      "source": null
+    },
+    {
+      "key": "wifi",
+      "label": "Customer Wi-Fi",
+      "available": null,
+      "detail": null,
+      "source": null
+    }
+  ],
+  "google": {
+    "profileUrl": "https://www.google.com/maps?cid=12959293736472282506",
+    "shareUrl": "https://share.google/gvdU06oBCJODvNpYu",
+    "listedName": "Amica Cafè",
+    "rating": 4.8,
+    "reviewCount": 48,
+    "retrieved": "2026-11-16",
+    "source": "Google Business Profile supplied by the site owner"
+  }
+}

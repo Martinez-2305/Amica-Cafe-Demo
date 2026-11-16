@@ -1,0 +1,237 @@
+{
+  "source": {
+    "file": "White Brown Restaurant Menu.pdf",
+    "pages": 2,
+    "extracted": "2026-11-16",
+    "method": "Embedded text layer (pdftotext) reconciled visually against rendered pages",
+    "clientApprovedCurrent": false
+  },
+  "currency": {
+    "code": "GBP",
+    "note": "The PDF prints prices without a currency symbol. Pounds sterling assumed for a UK café; confirm with client."
+  },
+  "notes": [],
+  "categories": [
+    {
+      "id": "breakfast",
+      "title": "Breakfast",
+      "intro": "Comforting classics and fresh creations to start your day right",
+      "sourcePage": 1,
+      "groups": [
+        {
+          "id": "breakfast-plates",
+          "title": null,
+          "items": [
+            { "id": "full-english-breakfast", "name": "Full English Breakfast", "description": "2 eggs, 2 sausages, 2 bacons, 2 hash browns, mushrooms, tomatoes, beans, 2 toast and butter", "price": 10.00 },
+            { "id": "half-english-breakfast", "name": "Half English Breakfast", "description": "1 egg, 1 sausage, 1 bacon, 1 hash brown, mushrooms, tomatoes, beans, 1 toast and butter", "price": 8.50 },
+            { "id": "eggs-on-toast", "name": "Eggs on Toast", "description": "Two free-range eggs on freshly toasted bread", "price": 4.50 },
+            { "id": "omelette", "name": "Omelette", "description": "Light and fluffy omelette cooked fresh, filled with your choice of two favourites: ham, cheese, mushrooms, tomatoes, onion, bacon, spinach", "price": 7.20 },
+            { "id": "tortilla-omelette", "name": "Tortilla Omelette", "description": "Soft omelette wrapped in a warm tortilla, filled with melted cheese, crispy bacon and creamy avocado", "price": 7.70 },
+            { "id": "crushed-avocado", "name": "Crushed Avocado", "description": "Smooth smashed avocado served on toasted sourdough, topped with crispy bacon, a perfectly poached egg and a sprinkle of fresh coriander", "price": 9.00 },
+            { "id": "shakshouka", "name": "Shakshouka", "description": "Three eggs simmered in a rich tomato sauce with onion, garlic and a hint of nutmeg, sweet pepper, finished with olive oil, fresh coriander and served with toast", "price": 7.50 }
+          ]
+        },
+        {
+          "id": "breakfast-extras",
+          "title": "Extras",
+          "items": [
+            { "id": "extra-toast", "name": "Toast", "price": 1.00 },
+            { "id": "extra-side-salad", "name": "Side salad", "price": 1.50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "title": "Lunch",
+      "intro": "Fresh, tasty meals perfect for a mid-day break",
+      "sourcePage": 1,
+      "groups": [
+        {
+          "id": "jacket-potatoes",
+          "title": "Jacket Potatoes",
+          "items": [
+            { "id": "jacket-butter-cheese", "name": "Butter & cheese", "price": 5.50 },
+            { "id": "jacket-baked-beans", "name": "Baked beans", "price": 5.50 },
+            { "id": "jacket-cheese-beans", "name": "Cheese & beans", "price": 6.50 },
+            { "id": "jacket-tuna-mayo", "name": "Tuna & mayo", "price": 7.50 },
+            { "id": "jacket-chicken-mayo", "name": "Chicken & mayo", "price": 8.00 },
+            { "id": "jacket-veggie", "name": "Veggie", "description": "Feta, avocado, spinach, tomato, cheddar", "price": 8.00 }
+          ]
+        },
+        {
+          "id": "toasties",
+          "title": "Toasties",
+          "items": [
+            { "id": "toastie-cheese", "name": "Cheese", "price": 5.00 },
+            { "id": "toastie-ham-cheese", "name": "Ham & cheese", "price": 6.00 },
+            { "id": "toastie-cheese-tomato", "name": "Cheese & tomato", "price": 5.50, "sourceNote": "PDF spells this 'Cheese & Tomatoe'; spelling corrected on the website." },
+            { "id": "toastie-blt", "name": "BLT", "description": "Bacon, lettuce, tomato", "price": 6.00 },
+            { "id": "toastie-tuna-mayo", "name": "Tuna & mayo", "price": 6.50 },
+            { "id": "toastie-bacon-cheese", "name": "Bacon & cheese", "price": 6.00 },
+            { "id": "toastie-chicken-mayo-cheese", "name": "Chicken & mayo with cheese", "price": 7.50 },
+            { "id": "toastie-brie-bacon-cranberry", "name": "Brie, bacon, cranberry", "price": 6.50 }
+          ]
+        },
+        {
+          "id": "sandwiches-toasts",
+          "title": "Sandwiches & Toasts",
+          "items": [
+            { "id": "bacon-sandwich", "name": "Bacon sandwich", "price": 5.50 },
+            { "id": "sausage-sandwich", "name": "Sausage sandwich", "price": 5.50 },
+            { "id": "beans-on-toast", "name": "Beans on toast", "price": 4.00 },
+            { "id": "toast-with-jam", "name": "Toast with jam", "price": 2.50 },
+            { "id": "toast-with-butter", "name": "Toast with butter", "price": 2.00 },
+            { "id": "club-sandwich", "name": "Club Sandwich", "description": "A hearty triple-layer sandwich filled with grilled chicken, crispy bacon, fresh lettuce, juicy tomatoes and creamy mayonnaise – served on perfectly toasted bread", "price": 9.90 }
+          ]
+        },
+        {
+          "id": "eggs-benedict-group",
+          "title": null,
+          "items": [
+            {
+              "id": "eggs-benedict",
+              "name": "Eggs Benedict",
+              "description": "Poached eggs, ham or salmon & hollandaise sauce on toasted sourdough bread",
+              "variants": [
+                { "label": "Ham", "price": 8.00 },
+                { "label": "Salmon", "price": 9.00 }
+              ],
+              "sourceNote": "PDF prints '8.00/9.00' beside 'ham/salmon'. Prices mapped in the same order (ham 8.00, salmon 9.00); confirm with client.",
+              "needsConfirmation": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bagels",
+      "title": "Bagels",
+      "intro": null,
+      "sourcePage": 1,
+      "groups": [
+        {
+          "id": "bagels-list",
+          "title": null,
+          "items": [
+            { "id": "bagel-omelette-bacon", "name": "Egg omelette, cheese, bacon, spinach, tomato", "price": 8.00 },
+            { "id": "bagel-omelette-salmon", "name": "Egg omelette, salmon, American cheese, cucumber", "price": 8.90 },
+            { "id": "bagel-ham-cheese-egg", "name": "Ham, cheese, egg", "price": 6.50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "title": "Salads",
+      "intro": null,
+      "sourcePage": 1,
+      "groups": [
+        {
+          "id": "salads-list",
+          "title": null,
+          "items": [
+            { "id": "salad-grilled-chicken", "name": "Mixed salads, grilled chicken, tomato, cucumber, avocado, French dressing", "price": 8.00 },
+            { "id": "salad-feta", "name": "Mixed salads, feta, tomato, cucumber, avocado, French dressing", "price": 7.50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crepes",
+      "title": "Crepes",
+      "intro": "Light, golden crepes made fresh and filled with your choice of savoury or sweet goodness. Perfect for breakfast, lunch or dessert",
+      "sourcePage": 2,
+      "groups": [
+        {
+          "id": "crepes-savoury",
+          "title": "Savoury",
+          "items": [
+            { "id": "crepe-ham-cheese-egg", "name": "Ham, cheese & egg", "price": 6.90 },
+            { "id": "crepe-ham-cheese-mushrooms", "name": "Ham, cheese & mushrooms", "price": 6.90 },
+            { "id": "crepe-ham-cheese", "name": "Ham & cheese", "price": 6.50 },
+            { "id": "crepe-bacon-maple", "name": "Bacon & maple syrup", "price": 6.50 },
+            { "id": "crepe-feta-spinach-avocado", "name": "Feta, spinach, avocado, cheddar, sundried tomatoes", "price": 8.20 },
+            { "id": "crepe-tuna-mayo-cheese", "name": "Tuna, mayo, cheese", "price": 7.00, "sourceNote": "In the PDF the 7.00 price sits slightly below this row; association confirmed by row order (next row is 8.50)." },
+            { "id": "crepe-chicken-bacon-avocado", "name": "Chicken, mayo, cheese, lettuce, bacon, avocado, tomato", "price": 8.50 }
+          ]
+        },
+        {
+          "id": "crepes-sweet",
+          "title": "Sweet",
+          "items": [
+            { "id": "crepe-white-chocolate-raspberries", "name": "White chocolate & raspberries", "price": 7.50 },
+            { "id": "crepe-fruit-mix-cream", "name": "Fruit mix & whipped cream", "price": 7.50 },
+            { "id": "crepe-nutella", "name": "Nutella", "price": 6.00 },
+            { "id": "crepe-nutella-banana", "name": "Nutella & banana", "price": 6.50 },
+            { "id": "crepe-nutella-marshmallows", "name": "Nutella & marshmallows", "price": 6.00 },
+            { "id": "crepe-cinnamon", "name": "Cinnamon", "price": 5.00 },
+            { "id": "crepe-jam", "name": "Jam", "price": 5.00 },
+            { "id": "crepe-oreo-white-chocolate", "name": "Oreo & white chocolate", "price": 7.00 },
+            { "id": "crepe-biscoff", "name": "Biscoff", "price": 6.00 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desserts-drinks",
+      "title": "Milkshakes, Desserts & Hot Chocolate",
+      "intro": null,
+      "sourcePage": 2,
+      "groups": [
+        {
+          "id": "milkshakes",
+          "title": "Milkshakes",
+          "items": [
+            {
+              "id": "milkshake",
+              "name": "Milkshake",
+              "price": 5.50,
+              "options": { "label": "Flavours", "values": ["Strawberry", "Chocolate", "Vanilla", "Nutella", "Oreo", "Banana"] }
+            }
+          ]
+        },
+        {
+          "id": "desserts",
+          "title": "Desserts",
+          "items": [
+            { "id": "ice-cream-sundae", "name": "Ice Cream Sundae", "description": "3 scoops of ice creams, fresh fruits, fluffy whipped cream & a drizzle of rich chocolate sauce", "price": 7.00 }
+          ]
+        },
+        {
+          "id": "belgian-hot-chocolate",
+          "title": "Belgian Hot Chocolate",
+          "items": [
+            {
+              "id": "belgian-hot-chocolate-item",
+              "name": "Belgian Hot Chocolate",
+              "description": "Served with freshly whipped cream",
+              "price": 5.50,
+              "options": { "label": "Choose", "values": ["Milk", "White"] }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pending": {
+    "hotDrinks": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Coffee, tea and soft drinks list to be supplied]",
+      "source": null
+    },
+    "allergens": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Allergen information and contact instructions to be supplied]",
+      "source": null
+    },
+    "servingTimes": {
+      "value": null,
+      "status": "pending",
+      "placeholder": "[Breakfast and lunch serving times to be confirmed]",
+      "source": null
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "id": "celebrations",
+      "title": "Celebrations",
+      "fields": [
+        { "key": "celebrations.capacitySeated", "label": "Seated guests", "question": "How many seated guests can attend?", "format": "Integer or null", "value": null, "status": "pending", "placeholder": "[Maximum seated guest count]", "source": null, "required": true },
+        { "key": "celebrations.capacityStanding", "label": "Standing events", "question": "Are standing events possible, and for how many?", "format": "Integer or null; may be 'not offered'", "value": null, "status": "pending", "placeholder": "[Whether standing events are offered, and for how many]", "source": null, "required": false },
+        { "key": "celebrations.spaceArrangement", "label": "Space used", "question": "Whole café, separate area or selected tables?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Whole café, a separate area or selected tables]", "source": null, "required": true },
+        { "key": "celebrations.exclusivity", "label": "Other customers", "question": "Does the café remain open to other customers?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Whether the café stays open to other customers during a celebration]", "source": null, "required": true },
+        { "key": "celebrations.availableDaysTimes", "label": "Available days and times", "question": "Which days and times can events take place?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Days and times celebrations can take place]", "source": null, "required": true },
+        { "key": "celebrations.duration", "label": "Duration", "question": "Typical duration and any limits?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Typical duration and any limits]", "source": null, "required": false },
+        { "key": "celebrations.setupCleanup", "label": "Setting up and clearing", "question": "What setup and clearing time is included?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Setup and clearing time included]", "source": null, "required": false },
+        { "key": "celebrations.hireFee", "label": "Hire fee", "question": "Is there a hire fee and what does it cover?", "format": "Amount/text, currency GBP", "value": null, "status": "pending", "placeholder": "[Hire fee, if any, and what it covers]", "source": null, "required": true },
+        { "key": "celebrations.minimumSpend", "label": "Minimum spend", "question": "Is there a minimum food/drink spend?", "format": "Amount/text", "value": null, "status": "pending", "placeholder": "[Minimum food and drink spend, if any]", "source": null, "required": true },
+        { "key": "celebrations.deposit", "label": "Deposit", "question": "Is a deposit required and how is it applied?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Deposit requirement and how it is applied]", "source": null, "required": true },
+        { "key": "celebrations.cancellation", "label": "Cancellation", "question": "What are the cancellation and refund terms?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Cancellation and refund terms]", "source": null, "required": true }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "Groups and meetups",
+      "fields": [
+        { "key": "groups.capacity", "label": "Group size", "question": "How many group-meeting guests can be accommodated?", "format": "Integer/text", "value": null, "status": "pending", "placeholder": "[Maximum group size]", "source": null, "required": true },
+        { "key": "groups.times", "label": "Suitable times", "question": "Which meeting times are suitable?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Days and times that suit group meetings]", "source": null, "required": true },
+        { "key": "groups.minimumSpend", "label": "Table fee or minimum spend", "question": "Is there a table fee or minimum spend?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Table fee or minimum spend, if any]", "source": null, "required": true },
+        { "key": "groups.recurring", "label": "Recurring meetups", "question": "Are recurring meetups possible and on what basis?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Whether regular meetups are possible, and on what basis]", "source": null, "required": false },
+        { "key": "groups.arrangement", "label": "Table arrangement", "question": "How are tables allocated while the café is open?", "format": "Text", "value": null, "status": "pending", "placeholder": "[How tables are set aside while the café is open]", "source": null, "required": false }
+      ]
+    },
+    {
+      "id": "catering",
+      "title": "Food and drink",
+      "fields": [
+        { "key": "catering.options", "label": "Food and drink available", "question": "What food and drink can be provided?", "format": "Text/list", "value": null, "status": "pending", "placeholder": "[Food and drink that can be provided for gatherings]", "source": null, "required": true },
+        { "key": "catering.externalFood", "label": "Bringing a cake or other food", "question": "Can guests bring cakes or other food?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Whether guests may bring a cake or other food]", "source": null, "required": true },
+        { "key": "catering.alcohol", "label": "Alcohol", "question": "What is the venue's alcohol policy?", "format": "Text; do not infer licensing", "value": null, "status": "pending", "placeholder": "[Alcohol policy]", "source": null, "required": true },
+        { "key": "catering.dietaryContact", "label": "Dietary and allergy requirements", "question": "How should dietary/allergy requirements be discussed?", "format": "Text", "value": null, "status": "pending", "placeholder": "[How to discuss dietary and allergy requirements]", "source": null, "required": true }
+      ]
+    },
+    {
+      "id": "venue",
+      "title": "The space",
+      "fields": [
+        { "key": "venue.decorations", "label": "Decorations", "question": "Which decorations are permitted?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Which decorations are permitted]", "source": null, "required": false },
+        { "key": "venue.equipment", "label": "Screen, Wi-Fi and equipment", "question": "Is any screen, Wi-Fi or presentation equipment provided?", "format": "Confirmed list", "value": null, "status": "pending", "placeholder": "[Any screen, Wi-Fi or presentation equipment provided]", "source": null, "required": false },
+        { "key": "venue.access", "label": "Access", "question": "What are the entrance and toilet access arrangements?", "format": "Text", "value": null, "status": "pending", "placeholder": "[Entrance and toilet access arrangements]", "source": null, "required": true }
+      ]
+    },
+    {
+      "id": "enquiries",
+      "title": "Enquiries",
+      "fields": [
+        { "key": "enquiries.contact", "label": "Who to contact", "question": "Who receives enquiries, by which channel?", "format": "Verified email/phone later", "value": null, "status": "pending", "placeholder": "[Enquiry contact details]", "source": null, "required": true },
+        { "key": "enquiries.responseExpectation", "label": "Response time", "question": "Is there an agreed response timeframe?", "format": "Text, optional", "value": null, "status": "pending", "placeholder": "[Expected response time, if agreed]", "source": null, "required": false }
+      ]
+    },
+    {
+      "id": "photos",
+      "title": "Photographs",
+      "fields": [
+        { "key": "photos.eventAssets", "label": "Venue and event photographs", "question": "Which venue/event images are available for use?", "format": "Asset IDs", "value": null, "status": "pending", "placeholder": "Venue and event photographs to be added", "source": null, "required": false }
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "How many people can you host?", "fields": ["celebrations.capacitySeated", "celebrations.capacityStanding", "groups.capacity"] },
+    { "question": "Will we have the café to ourselves?", "fields": ["celebrations.spaceArrangement", "celebrations.exclusivity", "groups.arrangement"] },
+    { "question": "What does it cost?", "fields": ["celebrations.hireFee", "celebrations.minimumSpend", "groups.minimumSpend", "celebrations.deposit"] },
+    { "question": "Can we bring our own cake?", "fields": ["catering.externalFood"] },
+    { "question": "Can we decorate the space?", "fields": ["venue.decorations", "celebrations.setupCleanup"] },
+    { "question": "What if our plans change?", "fields": ["celebrations.cancellation"] },
+    { "question": "Can our group meet regularly?", "fields": ["groups.recurring", "groups.times"] }
+  ]
+}

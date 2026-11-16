@@ -1,0 +1,50 @@
+{
+  "source": "Google reviews on the Amica Cafè Google Business Profile",
+  "retrieved": "2026-11-16",
+  "clientApproved": false,
+  "note": "Review text is quoted word for word from the public Google reviews; nothing is reworded. Reviewers are shown by first name and initial. These were chosen as the most favourable and relevant, so the site always shows the overall rating and links to all reviews beside them. Star ratings: the three home-page reviews showed five filled stars on Google; the three hire-page reviews are recorded as 5 from their 5/5 food, service and atmosphere scores.",
+  "reviews": [
+    {
+      "id": "finley-m",
+      "name": "Finley M.",
+      "rating": 5,
+      "placement": "home",
+      "text": "Honestly one of the best cafés I’ve been to in a long time. The food was absolutely unreal, everything tasted fresh, full of flavour and clearly made with care. The portions were generous, the presentation was spot on, and nothing felt rushed or low quality. The atmosphere was great too. Clean, comfortable and genuinely welcoming, with staff who actually care about the customers. You can tell there’s real effort behind the place rather than it just being another café. If you’re anywhere nearby, I’d genuinely recommend giving this place a try. I’ll definitely be coming back."
+    },
+    {
+      "id": "malgorzata-s",
+      "name": "Malgorzata S.",
+      "rating": 5,
+      "placement": "home",
+      "text": "The owners clearly put their heart into running this place — you can feel their kindness and attention to guests from the moment you walk in. The café is exceptionally clean and well-kept, with every detail thoughtfully taken care of. The food is fresh, flavorful, soooo delicious. I highly recommend it to anyone looking for a cozy atmosphere, great quality, and good food. I’ll definitely be coming back!"
+    },
+    {
+      "id": "liberty-c",
+      "name": "Liberty C.",
+      "rating": 5,
+      "placement": "home",
+      "text": "We absolutely love Amica Café and have quickly become regulars! The food is always delicious, the prices are great, and most importantly, the staff are absolutely wonderful. Everyone is so friendly, welcoming and accommodating, and they genuinely go above and beyond to make sure you have a lovely experience. It’s rare to find somewhere where you feel so comfortable and looked after every time you visit. We always look forward to coming back and would highly recommend Amica Café to anyone."
+    },
+    {
+      "id": "malgorzata-c",
+      "name": "Malgorzata C.",
+      "rating": 5,
+      "placement": "hire",
+      "text": "We came to Amica Cafe for dinner after my daughter Holy Communion, and we had a really lovely time. The food was delicious, the atmosphere was relaxed and welcoming, and the staff were friendly and attentive throughout our visit. It was the perfect place to continue our family celebration. Thank you for helping make such a special day even more memorable. We will definitely be back!"
+    },
+    {
+      "id": "aga-s",
+      "name": "Aga S.",
+      "rating": 5,
+      "placement": "hire",
+      "text": "Highly recommended! Our daughter First Communion celebration was beautifully organized. The food was delicious, the fresh flower decorations were lovely, and the atmosphere was fantastic. Even though another event was taking place at the same time, we still had complete privacy. Thank you for the excellent service!"
+    },
+    {
+      "id": "agnieszka-w",
+      "name": "Agnieszka W.",
+      "rating": 5,
+      "placement": "hire",
+      "text": "We organized a First Communion celebration there and everything was wonderful. The dishes were absolutely delicious, and the cakes and birthday cake were amazing as well. The staff was very kind and helpful, and you can really see that the owners put their heart into making everything perfect. Highly recommended!"
+    }
+  ]
+}

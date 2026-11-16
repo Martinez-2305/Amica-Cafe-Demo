@@ -1,0 +1,24 @@
+{
+  "name": "amica-cafe-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static HTML/CSS/JS demo website for Amica Café (preview, not live).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:live": "node scripts/build.mjs --mode=live",
+    "validate": "node scripts/validate-content.mjs",
+    "validate:live": "node scripts/validate-content.mjs --mode=live",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "images": "node scripts/optimise-images.mjs",
+    "checklist": "node scripts/make-checklist.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}
